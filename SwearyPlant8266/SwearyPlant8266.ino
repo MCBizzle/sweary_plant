@@ -304,7 +304,6 @@ void eyesView(struct point currentPos, struct eyelid lid){
     Display2.fillRect(0, 0, 128, lid.y);
     Display2.display();
 
-
 }
 
 
