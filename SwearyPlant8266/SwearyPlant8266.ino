@@ -238,7 +238,6 @@ void dataView(float humValue,float tempValue, float soilMapped){
     Display2.drawString(0, 32, "Temp: " + String(tempValue));
     Display2.display();
 
-
 }
 
 void emojiView(float humValue,float tempValue, float soilMapped){
