@@ -1,5 +1,11 @@
 # sweary_plant
 
+This repository contains the source code for a sentient plant sensor node based on the Node MCU arduino compatible wifi board. 
+
+Attached to the board are a capacative soil moisture sensor, a DHT22 Temperature and Humidity sensor as well as a pair of 0.96" oled displays that can be configured as eyes to convey the emotions of the plant. Wifi connectivity allows sensor data to be published to an MQTT server for access on a mobile device.
+
+# Board Details
+
 Board is the NodeMCU esp8266 wifi board.
 
 add the following to "additional board managers URL" in arduino IDE preferences panel... http://arduino.esp8266.com/stable/package_esp8266com_index.json
